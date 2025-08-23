@@ -62,7 +62,7 @@ function CircleTextItem({ text, index, totalCount, scrollY, circleSpeed }) {
       color="#222222"
       anchorX="center"
       anchorY="middle"
-      font="/fonts/neuton-regular.ttf"
+      // font="/fonts/neuton-regular.ttf"
     >
       {text}
     </Text>
