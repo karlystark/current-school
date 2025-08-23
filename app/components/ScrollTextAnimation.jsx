@@ -62,7 +62,7 @@ function CircleTextItem({ text, index, totalCount, scrollY, circleSpeed }) {
       color="#222222"
       anchorX="center"
       anchorY="middle"
-      font="/fonts/neuton-regular.ttf"
+      font="/fonts/Neuton-Regular.ttf"
     >
       {text}
     </Text>
@@ -96,7 +96,7 @@ function Scene({ scrollY }) {
           color="#333333"
           anchorX="center"
           anchorY="middle"
-          font="/fonts/neuton-regular.ttf"
+          font="/fonts/Neuton-Regular.ttf"
           fontWeight="bold"
         >
           a diy film school
