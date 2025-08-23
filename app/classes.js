@@ -10,7 +10,7 @@ const classes = [
         instructor: "k.stark",
         level: "beginner",
         shortDescription: "",
-        longDescription: "so you wanna make experimental diy films? you wanna know how to film, edit, and record sound so you can get out there and get weird? in this introductory course, we'll explore the language and core techniques of cinematography & film editing (so we can break/bend them), watch some cool experimental films, and create little freaks of film nature to share with each other. no need to own a camera, if you have a phone you have everything you need (& I have some gear to share).",
+        longDescription: "so you want to make experimental diy films? you want to know how to film, edit, and record sound so you can get out there and get weird? in this introductory course, we'll explore the language and core techniques of cinematography & film editing (so we can break/bend them), watch some cool experimental films, and create little freaks of film nature to share with each other. no need to own a camera, if you have a phone you have everything you need (& I have some gear to share).",
         courseHighlights: [],
         price: "pay what you can ~ notaflof - $250"
     },
