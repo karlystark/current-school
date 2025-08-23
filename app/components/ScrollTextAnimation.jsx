@@ -129,6 +129,7 @@ function useScrollAnimation() {
   }, []);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     let rafId;
 
     const handleScroll = () => {
