@@ -28,6 +28,7 @@ const textData = [
   { id: 20, title: "currents" },
 ];
 
+
 // Individual text component - simple circular rotation only
 function CircleTextItem({ text, index, totalCount, scrollY, circleSpeed }) {
   const meshRef = useRef();
