@@ -1,6 +1,4 @@
-import Image from "next/image";
 import ScrollTextAnimation from './components/ScrollTextAnimation';
-import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
 
 
 export default function Home() {

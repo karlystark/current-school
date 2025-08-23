@@ -164,7 +164,21 @@ function useScrollAnimation() {
 
 // Main App Component - clean and simple
 export default function ScrollTextAnimation() {
+  const [mounted, setMounted] = useState(false);
   const scrollData = useScrollAnimation();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Don't render until mounted on client
+  if (!mounted) {
+    return (
+      <div className="relative bg-stone-100 min-h-screen flex items-center justify-center">
+        <p className="text-gray-600">Loading...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="relative bg-stone-100 min-h-screen">
