@@ -126,7 +126,7 @@ const HamburgerMenu = () => {
 
             {/* Menu Panel */}
             <motion.div
-              className="fixed top-0 right-0 w-80 h-full bg-rose-400 shadow-xl z-40"
+              className="fixed top-0 right-0 w-80 h-full bg-[#75593b] shadow-xl z-40"
               variants={menuVariants}
               initial="closed"
               animate="open"
