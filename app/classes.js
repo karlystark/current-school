@@ -1,7 +1,7 @@
 const classes = [
     {
         name: "film 101",
-        version: "winter '25",
+        version: "tbd",
         slug: "film-101",
         img: "/plantriver.jpg",
         length: "8 weeks",
@@ -16,7 +16,7 @@ const classes = [
     },
     {
         name: "essay filmmaking",
-        version: "winter '25",
+        version: "tbd",
         slug: "essay-filmmaking",
         img: "/treewater.jpg",
         length: "12 weeks",
@@ -29,6 +29,21 @@ const classes = [
         courseHighlights: [],
         price: 'pay what you can ~ notaflof - $250'
     },
+     {
+        name: "building blocks of web dev",
+        version: "tbd",
+        slug: "web-dev-fundamentals",
+        img: "/birdtree.jpg",
+        length: "12 weeks",
+        schedule: "Wednesdays 7-9pm PST",
+        location: "Oakland, CA",
+        instructor: 'k.stark',
+        level: "beginner",
+        shortDescription: '',
+        longDescription: "vibe coding is far more powerful (and responsible) when you know what you're looking at. this beginner course gives you a solid foundation in html, css, and javascript. you'll leave with the core building blocks of web development, the tools to debug with confidence, the vocabulary to communicate more effectively, and direction to continue your learning journey.",
+        courseHighlights: [],
+        price: 'pay what you can ~ notaflof - $500'
+    }
 ];
 
 export default classes;

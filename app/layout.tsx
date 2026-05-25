@@ -6,8 +6,8 @@ import Footer from './components/Footer/Footer'
 
 
 export const metadata: Metadata = {
-  title: "currents school",
-  description: "a diy film school",
+  title: "current school",
+  description: "a diy school",
 };
 
 const googleSans = Google_Sans_Code({

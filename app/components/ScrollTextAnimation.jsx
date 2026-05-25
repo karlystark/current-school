@@ -6,26 +6,26 @@ import { Text } from '@react-three/drei';
 
 // Sample data - matches original tutorial
 const textData = [
-  { id: 1, title: "currents" },
-  { id: 2, title: "currents" },
-  { id: 3, title: "currents" },
-  { id: 4, title: "currents" },
-  { id: 5, title: "currents" },
-  { id: 6, title: "currents" },
-  { id: 7, title: "currents" },
-  { id: 8, title: "currents" },
-  { id: 9, title: "currents" },
-  { id: 10, title: "currents" },
-  { id: 11, title: "currents" },
-  { id: 12, title: "currents" },
-  { id: 13, title: "currents" },
-  { id: 14, title: "currents" },
-  { id: 15, title: "currents" },
-  { id: 16, title: "currents" },
-  { id: 17, title: "currents" },
-  { id: 18, title: "currents" },
-  { id: 19, title: "currents" },
-  { id: 20, title: "currents" },
+  { id: 1, title: "current" },
+  { id: 2, title: "current" },
+  { id: 3, title: "current" },
+  { id: 4, title: "current" },
+  { id: 5, title: "current" },
+  { id: 6, title: "current" },
+  { id: 7, title: "current" },
+  { id: 8, title: "current" },
+  { id: 9, title: "current" },
+  { id: 10, title: "current" },
+  { id: 11, title: "current" },
+  { id: 12, title: "current" },
+  { id: 13, title: "current" },
+  { id: 14, title: "current" },
+  { id: 15, title: "current" },
+  { id: 16, title: "current" },
+  { id: 17, title: "current" },
+  { id: 18, title: "current" },
+  { id: 19, title: "current" },
+  { id: 20, title: "current" },
 ];
 
 
@@ -99,7 +99,7 @@ function Scene({ scrollY }) {
           font="/fonts/Neuton-Regular.ttf"
           fontWeight="bold"
         >
-          a diy film school
+          a diy school
         </Text>
 
         {textData.map((item, index) => (
