@@ -19,7 +19,7 @@ const classes = [
         version: "tbd",
         slug: "essay-filmmaking",
         img: "/treewater.jpg",
-        length: "12 weeks",
+        length: "8 weeks",
         schedule: "Wednesdays 7-9pm PST",
         location: "Oakland, CA",
         instructor: 'k.stark',

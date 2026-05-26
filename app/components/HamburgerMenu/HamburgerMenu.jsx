@@ -171,7 +171,7 @@ const HamburgerMenu = () => {
                     Oakland, CA
                   </p>
                   <p className="text-sm text-[#f3f3f2]">
-                    hello@currents.school
+                    hello@current.school
                   </p>
                 </motion.div>
               </div>
